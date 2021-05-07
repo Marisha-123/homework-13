@@ -122,6 +122,10 @@ h1{
 
 /* btn-portfolio */
 
+.btn-portfolio {
+    border-bottom: 2px solid gray;
+    padding-bottom: 48px;
+}
 .button {
     font-size: 0.8rem;
     font-weight: bold;
@@ -138,7 +142,7 @@ h1{
 }
 .subtitle {
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.9rem;
     letter-spacing: .02rem;
     margin-top: 34px;
@@ -150,5 +154,6 @@ h1{
     font-weight: 300;
     line-height: 1.9rem;
     letter-spacing: .05rem;
+
 
 }
