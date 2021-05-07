@@ -154,6 +154,21 @@ h1{
     font-weight: 300;
     line-height: 1.9rem;
     letter-spacing: .05rem;
+}
+
+/* btn-lectus */
+
+.btn-lectus {
+    margin-top: 90px;
+}
 
 
+/* .btn-magna */
+.btn-magna {
+    margin-top: 140px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 48px;
+}
+.btn-magna h2{
+    margin-bottom: 19px;
 }
