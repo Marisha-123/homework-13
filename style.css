@@ -1,9 +1,10 @@
+body {
+        font-family: 'Montserrat', sans-serif;
+}
 /* header */
 .header {
-    width: 50%;
+    width: 42%;
     margin: 0 auto;
-    padding-bottom: 50px;
-    border-bottom: 2px solid gray;
 }
 .nav {
     display: flex;
@@ -19,7 +20,6 @@
 
 .nav__item {
     position: relative;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .nav__item:hover .nav__link,
@@ -38,7 +38,6 @@
 .subnav__item {
     width: 230px;
     font-size: .8rem;
-    font-family: 'Montserrat', sans-serif;
 }
 .subnav__link {
     background-color: gray;
@@ -62,7 +61,33 @@
     border-radius: 50%;
 }
 h1{
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
     font-weight: 600;
 }
+
+.conteiner   {
+    width: 80%;
+    margin: 0 auto;
+}
+/* text-article */
+
+.text-article {
+    border-top: 1px solid gray;
+    margin-top: 80px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.title-article {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 1.6rem;
+}
+.desc-article {
+    font-size: 1.8;
+    font-weight: 300;
+}
+
+/* lightbox */
+
+
