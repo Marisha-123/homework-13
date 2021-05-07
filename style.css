@@ -1,35 +1,40 @@
 body {
-        font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 /* header */
-.header {
-    width: 42%;
-    margin: 0 auto;
-}
 .nav {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+    text-align: center;
+    font-size: 0;
+}
+.nav__item {
+    display: inline-block;
+    position: relative;
+    margin: 20px 0;
+
 }
 .nav__link,
 .subnav__link {
     text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
     color: black;
-    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
-
-.nav__item {
-    position: relative;
+.nav__link{
+    padding: 20px 20px;
+    
 }
 
 .nav__item:hover .nav__link,
 .subnav__item:hover .subnav__link{
+    padding: 20px 30px;
     color: white;
     background: #2c2c2c;
+    border-radius: 5%;
 }
 .subnav {
-    position: relative;
-    top: 5%;
+    position: absolute;
+    top: 220%;
     left: 0;
     display: none;
     z-index: 2;
@@ -40,6 +45,7 @@ body {
     font-size: .8rem;
 }
 .subnav__link {
+    padding: 20px 20px;
     background-color: gray;
     display: block;
 }
@@ -50,44 +56,65 @@ body {
 }
 .logo {
     text-align: center;
-    margin-top:  100px;
+    margin-top:  148px;
     
 }
 .fa-leaf{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: white;
     background-color: #fb5d5d;
-    padding: 20px;
+    padding: 43px;
     border-radius: 50%;
+    margin-bottom: 55px;
 }
 h1{
-    font-size: 3rem;
+    text-transform: uppercase;
+    font-size: 2.3rem;
     font-weight: 600;
 }
 
 .conteiner   {
     width: 80%;
     margin: 0 auto;
+    text-align: center;
 }
 /* text-article */
 
 .text-article {
     border-top: 1px solid gray;
-    margin-top: 80px;
+    margin-top: 121px;
     border-bottom: 1px solid gray;
-    padding-bottom: 80px;
-    text-align: center;
+    padding-bottom: 95px;
 }
 .title-article {
-    margin-top: 100px;
-    margin-bottom: 40px;
-    font-size: 1.6rem;
+    margin-top: 138px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: .02rem;
 }
 .desc-article {
-    font-size: 1.8;
+    font-size: 0.8rem;
     font-weight: 300;
+    line-height: 1.9rem;
+    letter-spacing: .05rem;
+    margin-top: 34px;
 }
 
-/* lightbox */
+/* fotoBox */
 
 
+.text-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 25px;
+}
+.fotoBox-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.foto {
+    margin-top: 78px;
+}
+.foto img{
+    margin: 0 0 43px 0px
+}

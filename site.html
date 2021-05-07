@@ -5,8 +5,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="lightbox/css/lightbox.css">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css"
+		integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA=="
+		crossorigin="anonymous" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;600;800&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
 	<title>Сайт для Портфолио</title>
@@ -41,7 +45,7 @@
 			<div class="logo">
 				<i class="fas fa-leaf"></i>
 
-				<h1>Hello I'm Untitled.</h1>
+				<h1>Hello. I'm Untitled.</h1>
 			</div>
 		</header>
 		<div class="main">
@@ -60,9 +64,9 @@
 						senectus luctus lacinia aliquam.</p>
 					</p>
 				</article>
-				<section class="lightbox">
+				<section class="fotoBox">
 					<div class="text-section">
-						<h2 class="title">
+						<h2 class="fotoBox-title">
 							Our Work
 						</h2>
 						<p class="description">
@@ -70,52 +74,50 @@
 						</p>
 					</div>
 					<div class="foto">
-						<a href=images1/1q.jpg data-lightbox="galery1"><img src="images1/1q.jpg"></a>
-						<a href=images1/2q.jpg data-lightbox="galery1"><img src="images1/2q.jpg"></a>
-						<a href=images1/3q.jpg data-lightbox="galery1"><img src="images1/3q.jpg"></a>
-						<a href=images1/4q.jpg data-lightbox="galery1"><img src="images1/4q.jpg"></a>
-						<a href=images1/5q.jpg data-lightbox="galery1"><img src="images1/5q.jpg"></a>
-						<a href=images1/6q.jpg data-lightbox="galery1"><img src="images1/6q.jpg"></a>
+						<a href="img/1q.jpg" data-lightbox="galery1"><img src="img/1q.jpg" alt="foto"></a>
+						<a href="img/2q.jpg" data-lightbox="galery1"><img src="img/2q.jpg" alt="foto"></a>
+						<a href="img/3q.jpg" data-lightbox="galery1"><img src="img/3q.jpg" alt="foto"></a>
+						<a href="img/4q.jpg" data-lightbox="galery1"><img src="img/4q.jpg" alt="foto"></a>
+						<a href="img/5q.jpg" data-lightbox="galery1"><img src="img/5q.jpg" alt="foto"></a>
+						<a href="img/6q.jpg" data-lightbox="galery1"><img src="img/6q.jpg" alt="foto"></a>
 					</div>
-					<a href="#" class="button">Full Portfolio</a>
 				</section>
-				<article class="two">
-					<aside>
-						<h2>
-							Magna Feugiat Lorem
-						</h2>
-						<span>
-							Sed tempus lorem etiam turpis egestas
-						</span>
-						<p>
-							Lorem ipsum Integer lacinia turpis egestas dui luctus sed lacinia diam sollicitudin.
-							Pellentesque
-							habitant morbi tristique senectus et netus et malesuada fames.turpis egestas dui luctus sed
-							lacinia
-							diam sollicitudin lorem sed habitant morbi.
-						<div class=polosochka></div>
-						</p>
-						<a href="#" class="button">Learn More</a>
-					</aside>
-					<aside>
-						<h2>
-							Lectus dui habitant
-						</h2>
-						<span>
-							Sed tempus lorem etiam turpis egestas
-						</span>
-						<p>
-							Lorem ipsum Integer lacinia turpis egestas dui luctus sed lacinia diam sollicitudin.
-							Pellentesque
-							habitant morbi tristique senectus et netus et malesuada fames.turpis egestas dui luctus sed
-							lacinia
-							diam sollicitudin lorem sed habitant morbi.
-						<div class=polosochka></div>
-						</p>
-						<a href="#" class="button">Learn More</a>
-					</aside>
-				</article>
-				<footer>
+				<section class="btn-portfolio">
+					<a href="#" class="button">Full Portfolio</a>
+
+					<h2>
+						Magna Feugiat Lorem
+					</h2>
+					<p>
+						Sed tempus lorem etiam turpis egestas
+					</p>
+					<p>
+						Lorem ipsum Integer lacinia turpis egestas dui luctus sed lacinia diam sollicitudin.
+						Pellentesque
+						habitant morbi tristique senectus et netus et malesuada fames.turpis egestas dui luctus
+						sed
+						lacinia
+						diam sollicitudin lorem sed habitant morbi.</p>
+				</section>
+				<section>
+					<a href="#" class="button">Learn More</a>
+					<h2>
+						Lectus dui habitant
+					</h2>
+					<p>
+						Sed tempus lorem etiam turpis egestas
+					</p>
+					<p>
+						Lorem ipsum Integer lacinia turpis egestas dui luctus sed lacinia diam sollicitudin.
+						Pellentesque
+						habitant morbi tristique senectus et netus et malesuada fames.turpis egestas dui luctus
+						sed
+						lacinia
+						diam sollicitudin lorem sed habitant morbi.</p>
+
+				</section>
+				<section>
+					<a href="#" class="button">Learn More</a>
 					<div class="top">
 						<h2>
 							Magna Feugiat Lorem
@@ -123,29 +125,28 @@
 						<p>
 							Lorem ipsum Integer lacinia turpis egestas dui luctus sed lacinia diam sollicitudin.
 							Pellentesque
-							habitant morbi tristique senectus et netus et malesuada fames turpis egestas dui luctus sed
-							magna
-							tempus.
-						<div class=polosochka></div>
-						</p>
-						<ul>
-							<li>
-								<a href="https://twitter.com/">Twitter</a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/">Facebook</a>
-							</li>
-							<li>
-								<a href="https://www.flickr.com/">Flickr</a>
-							</li>
-							<li>
-								<a href="https://plus.google.com/photos?hl=ru">Google+</a>
-							</li>
-							<li>
-								<a href="http://instagram.com/">Instagram</a>
-							</li>
-						</ul>
-					</div>
+							habitant morbi tristique senectus et netus et malesuada fames turpis egestas dui luctus
+							sedmagna tempus.</p>
+
+				</section>
+				<footer>
+					<ul class="nav-footer">
+						<li class="nav-footer__item">
+							<a href="https://twitter.com/" class="nav-footer__link">Twitter</a>
+						</li>
+						<li class="nav-footer__item">
+							<a href="https://www.facebook.com/" class="nav-footer__link">Facebook</a>
+						</li>
+						<li class="nav-footer__item">
+							<a href="https://www.flickr.com/" class="nav-footer__link">Flickr</a>
+						</li>
+						<li class="nav-footer__item">
+							<a href="https://plus.google.com/photos?hl=ru" class="nav-footer__link">Google+</a>
+						</li>
+						<li class="nav-footer__item">
+							<a href="http://instagram.com/" class="nav-footer__link">Instagram</a>
+						</li>
+					</ul>
 					<div class="down">
 						© Untitled. All rights reserved. Lorem ipsum dolor sit amet consequat.
 					</div>
@@ -158,8 +159,9 @@
 
 
 	<script src="https://kit.fontawesome.com/55b30fb3c5.js" crossorigin="anonymous"></script>
-	<script src="lightbox/js/jquery-1.11.0.min.js"></script>
-	<script src="lightbox/js/lightbox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
 </body>
 
 </html>
