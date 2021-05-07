@@ -114,7 +114,41 @@ h1{
 }
 .foto {
     margin-top: 78px;
+    margin-bottom: 60px;
 }
 .foto img{
     margin: 0 0 43px 0px
+}
+
+/* btn-portfolio */
+
+.button {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 24px 90px;
+    background-color: #fb5d5d;
+    text-decoration: none;
+    color: white;
+}
+.title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: .02rem;
+    margin-top: 41px;
+}
+.subtitle {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    letter-spacing: .02rem;
+    margin-top: 34px;
+    margin-bottom: 17px;
+}
+
+.description {
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.9rem;
+    letter-spacing: .05rem;
+
 }
