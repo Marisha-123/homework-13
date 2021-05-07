@@ -123,30 +123,30 @@ h1{
 /* btn-portfolio */
 
 .btn-portfolio {
-    border-bottom: 2px solid gray;
     padding-bottom: 48px;
+    border-bottom: 2px solid gray;
 }
 .button {
+    padding: 24px 90px;
     font-size: 0.8rem;
     font-weight: bold;
-    padding: 24px 90px;
-    background-color: #fb5d5d;
     text-decoration: none;
+    background-color: #fb5d5d;
     color: white;
 }
 .title {
+    margin-top: 41px;
     font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: .02rem;
-    margin-top: 41px;
 }
 .subtitle {
+    margin-top: 34px;
+    margin-bottom: 17px;
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.9rem;
     letter-spacing: .02rem;
-    margin-top: 34px;
-    margin-bottom: 17px;
 }
 
 .description {
@@ -175,10 +175,10 @@ h1{
 /* footer */
 
 .nav-footer {
-    margin-top: 63px;
-    margin-bottom: 62px;
     display: flex;
     justify-content: center;
+    margin-top: 63px;
+    margin-bottom: 62px;
 }
 .nav-footer__item {
     margin: 0 35px;
