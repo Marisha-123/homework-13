@@ -172,3 +172,21 @@ h1{
 .btn-magna h2{
     margin-bottom: 19px;
 }
+/* footer */
+
+.nav-footer {
+    margin-top: 63px;
+    margin-bottom: 62px;
+    display: flex;
+    justify-content: center;
+}
+.nav-footer__item {
+    margin: 0 35px;
+}
+.nav-footer__link {
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.desc-footer {
+    font-size: 0.8rem;
+}
